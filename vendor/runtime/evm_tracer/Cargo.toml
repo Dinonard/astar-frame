@@ -10,8 +10,8 @@ version = "0.1.0"
 [dependencies]
 
 # Moonbeam
-evm-tracing-events = { path = "../../primitives/evm-tracing-events", default-features = false, features = ["evm-tracing"] }
-moonbeam-primitives-ext = { path = "../ext", default-features = false }
+evm-tracing-events = { workspace = true, features = ["evm-tracing"] }
+moonbeam-primitives-ext = { workspace = true }
 
 # Substrate
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }

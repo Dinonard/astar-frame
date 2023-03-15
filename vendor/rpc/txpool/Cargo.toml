@@ -14,7 +14,7 @@ serde = { version = "1.0", features = ["derive"] }
 sha3 = "0.10"
 
 # Moonbeam
-moonbeam-rpc-core-txpool = { path = "../../rpc-core/txpool" }
+moonbeam-rpc-core-txpool = { workspace = true }
 moonbeam-rpc-primitives-txpool = { path = "../../primitives/txpool" }
 
 # Substrate
