@@ -26,8 +26,8 @@ fp-evm = { workspace = true }
 pallet-evm = { workspace = true }
 
 # Polkadot
-xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.37", default-features = false }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.37", default-features = false }
+xcm = { workspace = true }
+xcm-executor = { workspace = true }
 
 [dev-dependencies]
 derive_more = "0.99"
@@ -40,7 +40,7 @@ precompile-utils = { workspace = true, features = ["testing"] }
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
 pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
 sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.37" }
+xcm-builder = { workspace = true }
 
 [features]
 default = ["std"]
