@@ -31,8 +31,8 @@ pallet-evm = { workspace = true }
 
 [dev-dependencies]
 derive_more = "0.99"
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
+pallet-balances = { workspace = true }
+pallet-timestamp = { workspace = true }
 precompile-utils = { workspace = true, features = ["testing"] }
 serde = "1.0.140"
 sha3 = "0.10.1"

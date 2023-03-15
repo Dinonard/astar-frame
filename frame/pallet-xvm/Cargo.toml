@@ -25,7 +25,7 @@ frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch =
 pallet-evm = { workspace = true, optional = true }
 
 # Substrate WASM VM support
-pallet-contracts = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37", default-features = false, optional = true }
+pallet-contracts = { workspace = true, optional = true }
 
 [dev-dependencies]
 

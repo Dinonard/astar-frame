@@ -31,8 +31,8 @@ serde = "1.0.100"
 
 precompile-utils = { workspace = true, features = ["testing"] }
 
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
+pallet-balances = { workspace = true }
+pallet-timestamp = { workspace = true }
 sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
 
 [features]
