@@ -21,7 +21,7 @@ xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "releas
 xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.37", default-features = false }
 
 # Astar pallets
-pallet-xc-asset-config = { path = "../../frame/xc-asset-config", default-features = false }
+pallet-xc-asset-config = { workspace = true }
 
 [features]
 default = ["std"]

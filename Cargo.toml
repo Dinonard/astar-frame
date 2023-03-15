@@ -129,17 +129,6 @@ fc-db = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v
 
 pallet-evm = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.37", default-features = false, features = ["forbid-evm-reentrancy"] }
 
-# Moonbeam EVM Tracing
-evm-tracing-events = { path = "./vendor/primitives/evm-tracing-events" }
-moonbeam-rpc-primitives-debug = { path = "./vendor/primitives/debug" }
-moonbeam-primitives-ext = { path = "./vendor/runtime/ext" }
-moonbeam-client-evm-tracing = { path = "./vendor/evm-tracing" }
-moonbeam-rpc-core-types = { path = "./vendor/rpc-core/types" }
-moonbeam-rpc-core-txpool = { path = "./vendor/rpc-core/txpool" }
-moonbeam-rpc-primitives-txpool = { path = "./vendor/primitives/txpool" }
-moonbeam-rpc-core-trace = { path = "./vendor/rpc-core/trace" }
-moonbeam-rpc-core-debug = { path = "./vendor/rpc-core/debug" }
-
 # Local deps
 pallet-dapps-staking = { path = "./frame/dapps-staking", default-features = false }
 pallet-xvm = { path = "./frame/pallet-xvm", default-features = false }
@@ -150,6 +139,15 @@ dapps-staking-chain-extension-types = { path = "./chain-extensions/types/dapps-s
 xvm-chain-extension-types = { path = "./chain-extensions/types/xvm", default-features = false }
 
 pallet-evm-precompile-assets-erc20 = { path = "./precompiles/assets-erc20", default-features = false }
-
 precompile-utils = { path = "./precompiles/utils", default-features = false }
-precompile-utils-macro = { path = "./precompiles/utils/macro" }
+
+# Moonbeam EVM Tracing
+evm-tracing-events = { path = "./vendor/primitives/evm-tracing-events" }
+moonbeam-rpc-primitives-debug = { path = "./vendor/primitives/debug" }
+moonbeam-primitives-ext = { path = "./vendor/runtime/ext" }
+moonbeam-client-evm-tracing = { path = "./vendor/evm-tracing" }
+moonbeam-rpc-core-types = { path = "./vendor/rpc-core/types" }
+moonbeam-rpc-core-txpool = { path = "./vendor/rpc-core/txpool" }
+moonbeam-rpc-primitives-txpool = { path = "./vendor/primitives/txpool" }
+moonbeam-rpc-core-trace = { path = "./vendor/rpc-core/trace" }
+moonbeam-rpc-core-debug = { path = "./vendor/rpc-core/debug" }

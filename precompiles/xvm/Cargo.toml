@@ -8,8 +8,8 @@ version = "0.1.0"
 [dependencies]
 log = "0.4.16"
 num_enum = { version = "0.5.3", default-features = false }
-pallet-xvm = { path = "../../frame/pallet-xvm", default-features = false }
-precompile-utils = { path = "../utils", default-features = false }
+pallet-xvm = { workspace = true }
+precompile-utils = { workspace = true }
 
 # Substrate
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["max-encoded-len"] }
@@ -29,7 +29,7 @@ hex-literal = "0.3.4"
 scale-info = "2.1.0"
 serde = "1.0.100"
 
-precompile-utils = { path = "../utils", features = ["testing"] }
+precompile-utils = { workspace = true, features = ["testing"] }
 
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
 pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
