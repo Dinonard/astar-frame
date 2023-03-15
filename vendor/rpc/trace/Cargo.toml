@@ -36,7 +36,7 @@ sp-std = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v
 sp-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37" }
 
 # Frontier
-fc-consensus = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.37" }
-fc-rpc = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.37", features = ["rpc-binary-search-estimate"] }
-fc-rpc-core = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.37" }
-fp-rpc = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.37" }
+fc-consensus = { workspace = true }
+fc-rpc = { workspace = true, features = ["rpc-binary-search-estimate"] }
+fc-rpc-core = { workspace = true }
+fp-rpc = { workspace = true }
