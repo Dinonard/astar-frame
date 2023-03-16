@@ -22,7 +22,7 @@ sp-std = { workspace = true }
 [dev-dependencies]
 assert_matches = "1.3.0"
 hex-literal = "0.3.4"
-libsecp256k1 = "0.7.0"
+libsecp256k1 = { workspace = true }
 pallet-balances = { workspace = true }
 sp-keyring = { workspace = true }
 

@@ -7,8 +7,8 @@ version = "0.5.2"
 
 [dependencies]
 log = "0.4.16"
-num_enum = { version = "0.5.3", default-features = false }
-slices = "0.2.0"
+num_enum = { workspace = true }
+slices = { workspace = true }
 
 precompile-utils = { workspace = true }
 
@@ -28,9 +28,9 @@ fp-evm = { workspace = true }
 pallet-evm = { workspace = true }
 
 [dev-dependencies]
-derive_more = { version = "0.99" }
+derive_more = { workspace = true }
 serde = { workspace = true }
-sha3 = "0.10.1"
+sha3 = { workspace = true }
 
 precompile-utils = { workspace = true, features = ["testing"] }
 

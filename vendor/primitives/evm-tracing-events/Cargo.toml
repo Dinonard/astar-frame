@@ -8,7 +8,7 @@ repository = "https://github.com/PureStake/moonbeam/"
 version = "0.1.0"
 
 [dependencies]
-environmental = { version = "1.1.2", default-features = false }
+environmental = { workspace = true }
 
 # Substrate
 parity-scale-codec = { workspace = true }

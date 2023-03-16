@@ -10,7 +10,7 @@ description = "dApps Staking EVM precompiles"
 
 [dependencies]
 log = "0.4.16"
-num_enum = { version = "0.5.3", default-features = false }
+num_enum = { workspace = true }
 parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
 
@@ -30,12 +30,12 @@ fp-evm = { workspace = true }
 pallet-evm = { workspace = true }
 
 [dev-dependencies]
-derive_more = "0.99"
+derive_more = { workspace = true }
 pallet-balances = { workspace = true }
 pallet-timestamp = { workspace = true }
 precompile-utils = { workspace = true, features = ["testing"] }
 serde = { workspace = true }
-sha3 = "0.10.1"
+sha3 = { workspace = true }
 sp-io = { workspace = true }
 
 [features]

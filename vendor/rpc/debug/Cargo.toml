@@ -8,10 +8,10 @@ repository = "https://github.com/PureStake/moonbeam/"
 version = "0.1.0"
 
 [dependencies]
-futures = { version = "0.3", features = ["compat"] }
+futures = { workspace = true, features = ["compat"] }
 hex-literal = "0.3.4"
 jsonrpsee = { workspace = true, features = ["macros", "server"] }
-tokio = { version = "1.10", features = ["sync", "time"] }
+tokio = { workspace = true, features = ["sync", "time"] }
 
 # Moonbeam
 moonbeam-client-evm-tracing = { workspace = true }

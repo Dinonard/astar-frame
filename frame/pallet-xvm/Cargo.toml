@@ -5,7 +5,7 @@ edition = "2021"
 version = "0.2.1"
 
 [dependencies]
-impl-trait-for-tuples = "0.2"
+impl-trait-for-tuples = { workspace = true }
 log = { version = "0.4", default-features = false }
 serde = { workspace = true, optional = true }
 
