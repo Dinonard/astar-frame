@@ -9,9 +9,9 @@ repository = "https://github.com/AstarNetwork/astar-frame"
 description = "Types definitions for dapps-staking chain-extension"
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+codec = { workspace = true }
 frame-support = { workspace = true }
-scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
+scale-info = { workspace = true }
 sp-core = { workspace = true }
 sp-runtime = { workspace = true }
 

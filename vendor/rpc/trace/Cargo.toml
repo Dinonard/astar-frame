@@ -11,7 +11,7 @@ version = "0.6.0"
 ethereum = { workspace = true, features = ["with-codec", "std"] }
 ethereum-types = { workspace = true, features = ["std"] }
 futures = { version = "0.3" }
-jsonrpsee = { workspace = true, default-features = false, features = ["macros", "server"] }
+jsonrpsee = { workspace = true, features = ["macros", "server"] }
 serde = { version = "1.0", features = ["derive"] }
 sha3 = "0.10"
 tokio = { version = "1.10", features = ["sync", "time"] }

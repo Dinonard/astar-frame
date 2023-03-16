@@ -5,9 +5,9 @@ name = "pallet-xcm"
 version = "0.9.28"
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
+codec = { workspace = true }
 log = { version = "0.4.16", default-features = false }
-scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
+scale-info = { workspace = true }
 serde = { version = "1.0.140", optional = true, features = ["derive"] }
 
 frame-support = { workspace = true }

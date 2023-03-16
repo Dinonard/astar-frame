@@ -14,7 +14,7 @@ evm-tracing-events = { workspace = true, features = ["evm-tracing"] }
 moonbeam-primitives-ext = { workspace = true }
 
 # Substrate
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+codec = { workspace = true }
 sp-core = { workspace = true }
 sp-io = { workspace = true }
 sp-runtime = { workspace = true }

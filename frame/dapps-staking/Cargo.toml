@@ -9,12 +9,12 @@ description = "FRAME pallet to staking for dapps"
 license = "PolyForm-Noncommercial-1.0.0"
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"], default-features = false }
+codec = { workspace = true }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
 num-traits = { version = "0.2", default-features = false }
 
-scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
+scale-info = { workspace = true }
 serde = { version = "1.0.140", features = ["derive"], optional = true }
 sp-arithmetic = { workspace = true }
 sp-core = { workspace = true }

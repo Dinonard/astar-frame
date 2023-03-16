@@ -13,7 +13,7 @@ pallet-xcm = { workspace = true }
 precompile-utils = { workspace = true }
 
 # Substrate
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["max-encoded-len"] }
+codec = { workspace = true, features = ["max-encoded-len"] }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
 pallet-assets = { workspace = true }
@@ -32,7 +32,7 @@ xcm-executor = { workspace = true }
 [dev-dependencies]
 derive_more = "0.99"
 hex-literal = "0.3.4"
-scale-info = "2.1.0"
+scale-info = { workspace = true }
 serde = "1.0.140"
 
 precompile-utils = { workspace = true, features = ["testing"] }

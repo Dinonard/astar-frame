@@ -14,7 +14,7 @@ ethereum-types = { workspace = true }
 evm-tracing-events = { workspace = true }
 
 # Substrate
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+codec = { workspace = true }
 sp-externalities = { workspace = true }
 sp-runtime-interface = { workspace = true }
 sp-std = { workspace = true }

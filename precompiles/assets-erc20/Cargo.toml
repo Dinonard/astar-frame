@@ -13,7 +13,7 @@ slices = "0.2.0"
 precompile-utils = { workspace = true }
 
 # Substrate
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["max-encoded-len"] }
+codec = { workspace = true, features = ["max-encoded-len"] }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
 pallet-assets = { workspace = true }
@@ -34,9 +34,8 @@ sha3 = "0.10.1"
 
 precompile-utils = { workspace = true, features = ["testing"] }
 
-codec = { package = "parity-scale-codec", version = "3.0.0", features = ["max-encoded-len"] }
 pallet-timestamp = { workspace = true }
-scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
+scale-info = { workspace = true }
 
 [features]
 default = ["std"]

@@ -18,5 +18,5 @@ evm-tracing-events = { workspace = true, features = ["std"] }
 moonbeam-rpc-primitives-debug = { workspace = true }
 
 # Substrate
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+codec = { workspace = true }
 sp-std = { workspace = true, features = ["std"] }

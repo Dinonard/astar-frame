@@ -11,8 +11,8 @@ serde = { version = "1.0.140", optional = true }
 # Substrate
 frame-support = { workspace = true }
 frame-system = { workspace = true }
-parity-scale-codec = { version = "3.0.0", default-features = false, features = ["derive"] }
-scale-info = { version = "2.0", default-features = false, features = ["derive"] }
+parity-scale-codec = { workspace = true }
+scale-info = { workspace = true }
 sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.37", default-features = false }
 sp-runtime = { workspace = true }
 sp-std = { workspace = true }

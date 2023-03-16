@@ -9,11 +9,11 @@ repository = "https://github.com/AstarNetwork/Astar"
 description = "FRAME pallet for managing multi-block pallet contracts storage migration"
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
+codec = { workspace = true }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
 pallet-contracts = { workspace = true }
-scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
+scale-info = { workspace = true }
 sp-arithmetic = { workspace = true }
 sp-runtime = { workspace = true }
 sp-std = { workspace = true }
