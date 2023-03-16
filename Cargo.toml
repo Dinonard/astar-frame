@@ -63,11 +63,11 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 scale-info = { version = "2.3.0", default-features = false }
 
 # EVM & Ethereum
-evm = { version = "0.37.0" }
-ethereum-types = { version = "0.14" }
-ethereum = { version = "0.14.0" }
-evm-gasometer = { version = "0.37.0" }
-evm-runtime = { version = "0.37.0" }
+evm = { version = "0.37.0", default-features = false }
+ethereum-types = { version = "0.14", default-features = false }
+ethereum = { version = "0.14.0", default-features = false }
+evm-gasometer = { version = "0.37.0", default-features = false }
+evm-runtime = { version = "0.37.0", default-features = false }
 
 # jsonrpsee
 jsonrpsee = { version = "0.16.2" }
