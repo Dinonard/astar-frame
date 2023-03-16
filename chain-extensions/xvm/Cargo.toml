@@ -1,12 +1,12 @@
 [package]
 name = "pallet-chain-extension-xvm"
 version = "0.1.0"
-authors = ["Stake Technologies <devops@stake.co.jp>"]
-edition = "2021"
 license = "Apache-2.0"
-homepage = "https://astar.network"
-repository = "https://github.com/AstarNetwork/astar-frame"
 description = "Chain extension for XVM"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [dependencies]
 frame-support = { workspace = true }

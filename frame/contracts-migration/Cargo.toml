@@ -1,12 +1,12 @@
 [package]
 name = "pallet-contracts-migration"
 version = "1.0.0"
-authors = ["Stake  Technologies <devops@stake.co.jp>"]
-edition = "2021"
 license = "Apache-2.0"
-homepage = "https://astar.network"
-repository = "https://github.com/AstarNetwork/Astar"
 description = "FRAME pallet for managing multi-block pallet contracts storage migration"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [dependencies]
 frame-support = { workspace = true }

@@ -1,12 +1,12 @@
 [package]
 name = "pallet-block-reward"
 version = "2.2.2"
-authors = ["Stake  Technologies <devops@stake.co.jp>"]
-edition = "2021"
 license = "Apache-2.0"
-homepage = "https://astar.network"
-repository = "https://github.com/AstarNetwork/Astar"
 description = "FRAME pallet for managing block reward issuance & distribution"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [dependencies]
 parity-scale-codec = { workspace = true }

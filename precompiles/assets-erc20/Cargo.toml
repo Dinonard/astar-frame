@@ -1,9 +1,11 @@
 [package]
 name = "pallet-evm-precompile-assets-erc20"
-authors = ["Stake Technologies", "PureStake"]
 description = "A Precompile to expose a Assets pallet through an ERC20-compliant interface."
-edition = "2021"
 version = "0.5.2"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [dependencies]
 log = { workspace = true }

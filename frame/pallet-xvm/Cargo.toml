@@ -1,8 +1,10 @@
 [package]
 name = "pallet-xvm"
-authors = ["Stake Technologies"]
-edition = "2021"
 version = "0.2.1"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [dependencies]
 impl-trait-for-tuples = { workspace = true }

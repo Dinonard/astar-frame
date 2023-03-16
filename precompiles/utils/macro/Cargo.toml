@@ -2,8 +2,10 @@
 name = "precompile-utils-macro"
 authors = ["StakeTechnologies", "PureStake"]
 description = ""
-edition = "2018"
 version = "0.1.0"
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
 
 [lib]
 proc-macro = true
