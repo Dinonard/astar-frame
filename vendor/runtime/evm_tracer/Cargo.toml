@@ -14,7 +14,7 @@ evm-tracing-events = { workspace = true, features = ["evm-tracing"] }
 moonbeam-primitives-ext = { workspace = true }
 
 # Substrate
-codec = { workspace = true }
+parity-scale-codec = { workspace = true }
 sp-core = { workspace = true }
 sp-io = { workspace = true }
 sp-runtime = { workspace = true }
@@ -31,7 +31,7 @@ pallet-evm = { workspace = true }
 [features]
 default = ["std"]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"ethereum-types/std",
 	"evm-gasometer/std",
 	"evm-runtime/std",

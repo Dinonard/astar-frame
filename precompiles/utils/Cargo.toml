@@ -17,9 +17,9 @@ similar-asserts = { version = "1.1.0", optional = true }
 precompile-utils-macro = { path = "macro" }
 
 # Substrate
-codec = { workspace = true }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
+parity-scale-codec = { workspace = true }
 sp-core = { workspace = true }
 sp-io = { workspace = true }
 sp-runtime = { workspace = true }
@@ -39,7 +39,7 @@ hex-literal = "0.3.1"
 default = ["std"]
 std = [
 	"evm/std",
-	"codec/std",
+	"parity-scale-codec/std",
 	"fp-evm/std",
 	"frame-support/std",
 	"frame-system/std",

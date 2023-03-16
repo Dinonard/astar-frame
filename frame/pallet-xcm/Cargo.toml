@@ -5,10 +5,10 @@ name = "pallet-xcm"
 version = "0.9.28"
 
 [dependencies]
-codec = { workspace = true }
 log = { version = "0.4.16", default-features = false }
+parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
-serde = { version = "1.0.140", optional = true, features = ["derive"] }
+serde = { workspace = true, optional = true }
 
 frame-support = { workspace = true }
 frame-system = { workspace = true }
@@ -29,7 +29,7 @@ xcm-builder = { workspace = true }
 [features]
 default = ["std"]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"scale-info/std",
 	"serde",
 	"sp-std/std",

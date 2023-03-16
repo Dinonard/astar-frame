@@ -7,12 +7,12 @@ version = "0.2.1"
 [dependencies]
 impl-trait-for-tuples = "0.2"
 log = { version = "0.4", default-features = false }
-serde = { version = "1.0.106", optional = true }
+serde = { workspace = true, optional = true }
 
 # Substrate
-codec = { workspace = true }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
+parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
 sp-core = { workspace = true }
 sp-runtime = { workspace = true }
@@ -38,7 +38,7 @@ wasm = [
 	"pallet-contracts",
 ]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"frame-support/std",
 	"frame-system/std",
 	"pallet-contracts/std",

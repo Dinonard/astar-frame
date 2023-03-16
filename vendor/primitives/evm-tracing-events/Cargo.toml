@@ -11,7 +11,7 @@ version = "0.1.0"
 environmental = { version = "1.1.2", default-features = false }
 
 # Substrate
-codec = { workspace = true }
+parity-scale-codec = { workspace = true }
 sp-runtime-interface = { workspace = true }
 
 # Ethereum
@@ -24,7 +24,7 @@ evm-runtime = { workspace = true }
 [features]
 default = ["std"]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"environmental/std",
 	"ethereum-types/std",
 	"ethereum/std",

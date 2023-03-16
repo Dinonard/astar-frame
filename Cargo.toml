@@ -56,11 +56,10 @@ tokio = { version = "1.10" }
 tracing = "0.1.34"
 
 # Encoding
-serde = { version = "1.0.136" }
+serde = { version = "1.0.136", features = ["derive"] }
 serde_json = { version = "1.0" }
 
 # TODO: why double deps?
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
 parity-scale-codec = { version = "3.0.0", default-features = false, features = ["derive"] }
 scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
 

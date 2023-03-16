@@ -13,11 +13,11 @@ version = "3.3.2"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { workspace = true }
 log = { version = "0.4.16", default-features = false }
+parity-scale-codec = { workspace = true }
 rand = { version = "0.8.5", features = ["std_rng"], default-features = false }
 scale-info = { workspace = true }
-serde = { version = "1.0.132", default-features = false }
+serde = { workspace = true }
 
 frame-support = { workspace = true }
 frame-system = { workspace = true }
@@ -46,7 +46,7 @@ runtime-benchmarks = [
 	"frame-system/runtime-benchmarks",
 ]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"log/std",
 	"scale-info/std",
 	"rand/std",

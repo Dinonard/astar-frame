@@ -9,7 +9,7 @@ repository = "https://github.com/AstarNetwork/astar-frame"
 description = "Types definitions for contracts using xvm chain-extension."
 
 [dependencies]
-codec = { workspace = true }
+parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
 sp-runtime = { workspace = true }
 sp-std = { workspace = true }
@@ -17,7 +17,7 @@ sp-std = { workspace = true }
 [features]
 default = ["std"]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"scale-info/std",
 	"sp-runtime/std",
 	"sp-std/std",

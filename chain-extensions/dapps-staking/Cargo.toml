@@ -9,13 +9,13 @@ repository = "https://github.com/AstarNetwork/astar-frame"
 description = "dApps Staking chain extension for WASM contracts"
 
 [dependencies]
-codec = { workspace = true }
 frame-support = { workspace = true }
 frame-system = { workspace = true }
 log = "0.4.16"
 num-traits = { version = "0.2", default-features = false }
 pallet-contracts = { workspace = true }
 pallet-contracts-primitives = { workspace = true }
+parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
 sp-core = { workspace = true }
 sp-runtime = { workspace = true }
@@ -28,7 +28,7 @@ pallet-dapps-staking = { workspace = true }
 [features]
 default = ["std"]
 std = [
-	"codec/std",
+	"parity-scale-codec/std",
 	"dapps-staking-chain-extension-types/std",
 	"frame-support/std",
 	"frame-system/std",
