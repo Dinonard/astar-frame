@@ -5,7 +5,7 @@ name = "pallet-xcm"
 version = "0.9.28"
 
 [dependencies]
-log = { version = "0.4.16", default-features = false }
+log = { workspace = true }
 parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }
 serde = { workspace = true, optional = true }

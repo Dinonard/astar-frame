@@ -9,7 +9,7 @@ version = "0.1.0"
 
 [dependencies]
 futures = { workspace = true, features = ["compat"] }
-hex-literal = "0.3.4"
+hex-literal = { workspace = true }
 jsonrpsee = { workspace = true, features = ["macros", "server"] }
 tokio = { workspace = true, features = ["sync", "time"] }
 

@@ -38,21 +38,9 @@ repository = "https://github.com/AstarNetwork/astar-frame"
 environmental = { version = "1.1.2", default-features = false }
 sha3 = { version = "0.10.1", default-features = false }
 num_enum = { version = "0.5.3", default-features = false }
-
 log = { version = "0.4.16", default-features = false }
 num-traits = { version = "0.2", default-features = false }
-assert_matches = "1.3.0"
-hex-literal = "0.3.4"
-hex = { version = "0.4" }
-libsecp256k1 = "0.7.0"
-impl-trait-for-tuples = "0.2.2"
-
-slices = "0.2.0"
-derive_more = { version = "0.99" }
-
-proc-macro2 = "1.0"
-quote = "1.0"
-syn = { version = "1.0" }
+rand = { version = "0.8.5", default-features = false }
 
 # (client)
 futures = { version = "0.3.1" }
@@ -60,6 +48,16 @@ rlp = "0.5"
 tokio = { version = "1.10" }
 tracing = "0.1.34"
 similar-asserts = { version = "1.1.0" }
+assert_matches = "1.3.0"
+hex-literal = "0.3.4"
+hex = { version = "0.4", features = ["serde"] }
+libsecp256k1 = "0.7.0"
+impl-trait-for-tuples = "0.2.2"
+slices = "0.2.0"
+derive_more = { version = "0.99" }
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "1.0" }
 
 # Encoding
 # (runtime)

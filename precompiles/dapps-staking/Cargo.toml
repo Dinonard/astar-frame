@@ -9,7 +9,7 @@ repository = "https://github.com/AstarNetwork/astar-frame"
 description = "dApps Staking EVM precompiles"
 
 [dependencies]
-log = "0.4.16"
+log = { workspace = true }
 num_enum = { workspace = true }
 parity-scale-codec = { workspace = true }
 scale-info = { workspace = true }

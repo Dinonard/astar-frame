@@ -11,8 +11,8 @@ description = "Chain extension for XVM"
 [dependencies]
 frame-support = { workspace = true }
 frame-system = { workspace = true }
-log = "0.4.16"
-num-traits = { version = "0.2", default-features = false }
+log = { workspace = true }
+num-traits = { workspace = true }
 pallet-contracts = { workspace = true }
 pallet-contracts-primitives = { workspace = true }
 parity-scale-codec = { workspace = true }

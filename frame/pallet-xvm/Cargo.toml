@@ -6,7 +6,7 @@ version = "0.2.1"
 
 [dependencies]
 impl-trait-for-tuples = { workspace = true }
-log = { version = "0.4", default-features = false }
+log = { workspace = true }
 serde = { workspace = true, optional = true }
 
 # Substrate

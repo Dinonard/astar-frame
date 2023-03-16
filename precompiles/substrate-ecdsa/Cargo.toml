@@ -6,7 +6,7 @@ edition = "2021"
 version = "1.2.2"
 
 [dependencies]
-log = "0.4.16"
+log = { workspace = true }
 num_enum = { workspace = true }
 precompile-utils = { workspace = true, default-features = false }
 
@@ -22,7 +22,7 @@ pallet-evm = { workspace = true }
 
 [dev-dependencies]
 derive_more = { workspace = true }
-hex-literal = "0.3.4"
+hex-literal = { workspace = true }
 scale-info = { workspace = true }
 serde = { workspace = true }
 
